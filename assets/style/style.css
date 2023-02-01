@@ -112,3 +112,123 @@ body {
    margin: 0 auto 206px;
    text-decoration: none;
 }
+.header__button:hover{
+   background-color: #000000;
+   color: #fefefe;
+}
+
+
+.about {
+   background-color: #1d1d1d;
+   height: 1129px;
+   padding-top: 128px;
+   padding-bottom: 271px;
+   background: url(../image/buildings__black.png) center bottom repeat-x,
+               url(../image/buildings__white.png) center bottom repeat-x
+               #1d1d1d;
+   /* background-size: contain, contain;             */
+}
+.about__inner {
+   display: grid;
+   grid-template-rows: 276px 276px;
+   grid-template-columns: max-content max-content;
+   grid-gap: 178px; 
+   justify-content: center;
+   align-content: center;
+}
+.about__item {
+   width: 417px;
+   height: 276px;
+   background-color: #181818;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.about__year {
+   font-family: "HelveticaNeueLTProLt";
+   font-size: 48px;
+   font-weight: 400;
+   letter-spacing: 0.02em;
+   color: #fefefe;
+   margin-bottom: 27px;
+}
+.about__text {
+   font-family:"Montserrat-Light";
+   font-size: 15px;
+   font-weight: 300;
+   letter-spacing: 0.02em;
+   color: #b7b7b7;
+}
+
+
+
+.team {
+   height: 745px;
+ 
+}
+.block__head {
+  margin-top: 161px; 
+ text-align: center;
+}
+.block__title {
+   font-family: "HelveticaNeueLTProLt";
+   font-size: 34px;
+   font-weight: 400;
+   letter-spacing: 0.02em;
+   color: #1d1e1f;
+   margin: 0;
+}
+.block__text {
+   font-family: "Merriweather-LightItalic";
+   font-size: 16px;
+   font-weight: 300;
+   font-style: italic;
+   letter-spacing: 0.02em;
+   color: #898888;
+   margin: 0;
+}
+.team__inner{
+   display: flex;
+   justify-content: center;
+}
+.team__item {
+   text-align: center;
+   margin-right: 232px;
+   margin-top: 161px;
+}
+.team__item:last-child{
+   margin-right: 0;
+}
+.team__item-img {
+   width: 168px;
+   height: 168px;
+   border-radius: 50%;
+  
+}
+.team__item-title {
+   font-family:"HelveticaNeueLTProLt";
+   font-size: 24px;
+   font-weight: 400;
+   letter-spacing: 0.02em;
+   color: #464646;
+   margin: 0;
+}
+.team__item-text {
+   font-family: "HelveticaNeueLTProLt";
+   font-size: 13px;
+   font-weight: 400;
+   letter-spacing: 0.02em;
+   color: #b3b3b3;
+}
+.team__icon-box a{
+   font-size: 20px;
+   color: #e4e4e4;
+}
+.icon-twitter {
+}
+.icon-instagram {
+}
+
+
