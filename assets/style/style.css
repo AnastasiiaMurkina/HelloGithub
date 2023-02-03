@@ -172,7 +172,7 @@ body {
   margin-top: 161px; 
 text-align: center;
 }
-.block__title {
+.team__title {
    font-family: "HelveticaNeueLTProLt";
    font-size: 34px;
    font-weight: 400;
@@ -234,7 +234,8 @@ text-align: center;
 
 .provide {
    background-color: rgb(0, 0, 0);
-   height: 745px;
+   /* height: 745px; */
+   padding-bottom: 155px;
    
 }
 .block__head {
@@ -242,9 +243,14 @@ text-align: center;
 .inverse {
    padding-top: 176px;
 }
-.block__title {
-  
+.provide__title {
+   font-family: "HelveticaNeueLTProLt";
    color: #fefefe;
+   font-size: 34px;
+   font-weight: 400;
+   letter-spacing: 0.02em;
+   
+   margin: 0;
 }
 .block__text {
 }
@@ -294,6 +300,52 @@ text-align: center;
    letter-spacing: 0.02em;
 
 }
+
+
+
+.contact {
+   width: 1200px;
+   height: 1087px;
+}
+.block__head {
+}
+.inverse {
+}
+.contact__title {
+}
+.block__text {
+}
+.contact__inner {
+}
+.contact__icon-box {
+}
+.contact__item {
+}
+.icon-phone {
+}
+.contact__text {
+}
+.icon-location {
+}
+.icon-mail {
+}
+.contact__form {
+}
+.contact__name {
+}
+.contact__email {
+}
+.contact__number {
+}
+.contact__texterea {
+}
+.contact__btn {
+}
+.footer {
+}
+.footer__text {
+}
+
 
 
 
